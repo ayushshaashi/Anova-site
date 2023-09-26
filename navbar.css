@@ -1,0 +1,45 @@
+*{
+    margin:0%;
+    padding: 0;
+    font-family: 'Roberto', sans-serif;
+}
+
+.container{
+    height:100px;
+    width: 90%;
+    background-image: -o-linear-gradient();
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-top:30px;
+}
+
+.navbar{
+    height: 12%;
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3%;
+    color: white;
+    margin:15px;
+}
